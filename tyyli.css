@@ -12,3 +12,6 @@ body{
     flex-direction: row;
     font-size: 80px;
 }
+div{
+    padding: 5px;
+}
