@@ -38,7 +38,8 @@ function pelaajienMaaritys(){
         }
         if (pmaar == nimet.length){
             kaksinoppaa = document.getElementById("noppiamonta").value
-            aloitus.innerHTML = ""
+            tavoitepisteet = document.getElementById("pistemaar").value
+            aloitus.innerHTML = `Ensimmäinen ${tavoitepisteet} pisteeseen voittaa`
             teePelaajat()
         }
     }
