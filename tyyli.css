@@ -1,0 +1,14 @@
+.peli {
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    max-width: 1100px;
+    width: 30%;
+    margin: 20px auto;
+}
+.noppa{
+    display: flex;
+    flex-direction: row;
+    font-size: 80px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikanoppapeli</title>
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+    <h1>Sikanoppapeli</h1>
+    <div id="aloitus">
+        <select name="noppamaar" id="noppiamonta">
+            <option value="1">Yksi noppa</option>
+            <option value="2">Kaksi noppaa</option>
+        </select>
+        <div id="teksti">
+            Monta pelajaa?
+        </div>
+        <input type="text" id="tieto"><button id="hyvaksy">hyväksy</button>
+    </div>
+    <main class="peli">
+        <div id="pelaajat">
+        </div>
+
+        <div class="noppa" id="noppakohta">
+            <div id="noppa">
+                6
+            </div>
+            <div>
+                <button id="heitaNoppa">Heitä noppa</button>
+            </div>
+            <div>
+                <button id="lopeta">Lopeta heittäminen</button>
+            </div>
+        </div>
+    </main>
+    <script src="paa.js"></script>
+</body>
+</html>
